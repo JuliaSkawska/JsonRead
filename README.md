@@ -16,7 +16,7 @@ Allows users to iterate over files inside a directory to check JSON files for th
 
 ### Example:
 
-$ python JsonCheck.py
+$ python JsonCheck.py\
 Enter a path to catalogue containing JSON files for testing: /path/to/directory
 
 ## Features:
