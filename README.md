@@ -9,15 +9,28 @@ Allows users to iterate over files inside a directory to check JSON files for th
 
 ## Usage:
 
-1. Create a directory containing files for testing.
-2. Run the program from the console: `python JsonCheck.py`
+1. Create a directory containing files for testing.\
+   
+  For Bash:\
+2. Run the program from the console: `$python JsonCheck.py`\
+\
+  For Powershell:\
+2. Enter the catalogue in which JsonCheck is contained using cd, then run the program 'python JsonCheck.py'
+
 3. Enter the path to the directory created in step 1 when prompted.
 4. The program will return a list containing True (if "Resource" contains only "*"), False (if the condition is not met), or an error message with information on what went wrong for each file tested.
 
 ### Example:
-
+Bash\
 $ python JsonCheck.py\
-Enter a path to catalogue containing JSON files for testing: /path/to/directory
+Enter a path to catalogue containing JSON files for testing: /path/to/directory/json
+\
+\
+Powershell\
+cd /path/to/directory
+python JsonCheck.py\
+Enter a path to catalogue containing JSON files for testing: /path/to/directory/json
+
 
 ## Features:
 
