@@ -34,12 +34,12 @@ def CheckResource(filename):  #Checks if Resource value is '*' and return errors
     search=FindResource(data)
 
     if search == '*':
-        return True
+        return False
     elif search is None:
         error_message2 = f"Error: File '{filename}' does not contain 'Resource'"
         return error_message2
     else:
-        return False
+        return True
 
 
 def RunCheck():  #Runs the code over multiple files
